@@ -30,8 +30,8 @@ Built an interactive dashboard to visualize the SQL-derived insights. Key featur
 * Insight 2: Identified [Specific Problem], which could be mitigated by [Your Recommendation].
 * Insight 3: [One more punchy, data-driven conclusion].
 ### 📂 How to Run  
-1. Clone the repo: git clone https://github.com/parbole1/project-name.git
-2. Python: Run pip install -r requirements.txt followed by the Jupyter Notebook analysis.ipynb.
-3. SQL: Import the .sql file into your local database instance to view the queries.
-4. Power BI: Open the .pbix file to interact with the dashboard.
-5. Presentation: View the Gamma-generated slides via the link provided in the reports/ folder.
+1. Clone the repo: git clone https://github.com/parbole1/customer_behavior_analysis.git
+2. Python: Open the Customer_Shopping_Behavior_Analysis.ipynb notebook.
+3. SQL: Import the customer_behavior_queries.sql file into your local database instance to view the queries.
+4. Power BI: Open the customer_behavior_dashboard.pbix file to interact with the dashboard.
+5. Presentation: View the Gamma-generated slides via the link provided in the reports/folder.
