@@ -1,2 +1,37 @@
-# Customer_Behavior_Analysis
-Data Analytics project showcasing the analysis of customer behavior using Python, SQL, and Power BI.
+# Data Analytics Project: Customer Behavior Analysis  
+**A comprehensive end-to-end analysis uncovering customer shopping behavior using transactional data from 3,900 purchases across various product categories to drive data-informed decision making.**
+
+### 📋 Overview  
+This project demonstrates a full data lifecycle: from raw data ingestion and cleaning in **Python** to advanced querying in **SQL** and interactive visualization in **Power BI**. The final insights were distilled into a professional report and an AI-enhanced presentation for stakeholder review.
+
+### 🛠️ Tools & Technologies  
+**Languages**: Python (Pandas, NumPy, Matplotlib/Seaborn)  
+**Database**: PostgreSQL / MySQL / SQL Server  
+**Visualization**: Power BI  
+**Reporting**: Gamma AI (Presentation), Microsoft Word/PDF (Technical Report)  
+
+### 🚀 Project Steps  
+1. Data Cleaning & EDA (Python)   
+Performed initial data profiling to handle missing values, duplicates, and outliers.
+* Identified and imputed null values in the [Column Name] field.
+* Conducted Exploratory Data Analysis (EDA) to find correlations between [X] and [Y].
+2. SQL Analysis  
+The cleaned data was migrated to a relational database. I executed complex queries to answer business questions, such as:
+* Trend Analysis: Measuring Month-over-Month (MoM) growth.
+* Segmentation: Categorizing users based on [Metric].
+* Performance: Identifying the top 5 performing [Category].  
+3. Power BI Dashboard  
+Built an interactive dashboard to visualize the SQL-derived insights. Key features include:
+* DAX Measures: Created custom measures for [e.g., Year-to-Date revenue].
+* Dynamic Filters: Users can slice data by Region, Time, and Category.
+### 🖥️ Dashboard Preview  
+### 📈 Key Results & Insights
+* Insight 1: Discovered a [X]% increase in sales during [Specific Period].
+* Insight 2: Identified [Specific Problem], which could be mitigated by [Your Recommendation].
+* Insight 3: [One more punchy, data-driven conclusion].
+### 📂 How to Run  
+1. Clone the repo: git clone https://github.com/parbole1/project-name.git
+2. Python: Run pip install -r requirements.txt followed by the Jupyter Notebook analysis.ipynb.
+3. SQL: Import the .sql file into your local database instance to view the queries.
+4. Power BI: Open the .pbix file to interact with the dashboard.
+5. Presentation: View the Gamma-generated slides via the link provided in the reports/ folder.
