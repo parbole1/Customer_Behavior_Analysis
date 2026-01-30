@@ -13,22 +13,21 @@ This project demonstrates a full data lifecycle: from raw data ingestion and cle
 ### 🚀 Project Steps  
 1. Data Cleaning & EDA (Python)   
 Performed initial data profiling to handle missing values, duplicates, and outliers.
-* Identified and imputed null values in the [Column Name] field.
-* Conducted Exploratory Data Analysis (EDA) to find correlations between [X] and [Y].
+* Identified and imputed null values in the review rating field.
+* Conducted Exploratory Data Analysis (EDA) for summary statistics from the products and customers.
 2. SQL Analysis  
 The cleaned data was migrated to a relational database. I executed complex queries to answer business questions, such as:
-* Trend Analysis: Measuring Month-over-Month (MoM) growth.
-* Segmentation: Categorizing users based on [Metric].
-* Performance: Identifying the top 5 performing [Category].  
+* Trend Analysis: Measuring the data across all purchases.
+* Segmentation: Categorizing users based on age, subscription status, and gender.
+* Performance: Identifying the top 5 performing products.  
 3. Power BI Dashboard  
 Built an interactive dashboard to visualize the SQL-derived insights. Key features include:
-* DAX Measures: Created custom measures for [e.g., Year-to-Date revenue].
-* Dynamic Filters: Users can slice data by Region, Time, and Category.
-### 🖥️ Dashboard Preview  
+* DAX Measures: Created custom measures for revenue based on different categories.
+* Dynamic Filters: Users can slice data by Subscription Status, Gender, and Category.
 ### 📈 Key Results & Insights
-* Insight 1: Discovered a [X]% increase in sales during [Specific Period].
-* Insight 2: Identified [Specific Problem], which could be mitigated by [Your Recommendation].
-* Insight 3: [One more punchy, data-driven conclusion].
+* Insight 1: Discovered an average review rating of 3.75 throughout the products.
+* Insight 2: Identified percentage of subscribed customers, which could be improved by advertising towards the repeat customers.
+* Insight 3: Uncovered the distinctions between purchases from different age groups, emphasizing the ability to promote towards young adults.
 ### 📂 How to Run  
 1. Clone the repo: git clone https://github.com/parbole1/customer_behavior_analysis.git
 2. Python: Open the Customer_Shopping_Behavior_Analysis.ipynb notebook.
